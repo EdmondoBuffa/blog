@@ -711,11 +711,11 @@ section,
 
 .credit {
   position: absolute;
-  bottom: 10px;       /* distanza dal bordo inferiore */
+  bottom: 5px;       /* distanza dal bordo inferiore */
   right: 10px;        /* distanza dal bordo destro, puoi usare left se preferisci */
   color: white;       /* colore del testo */
   font-size: 14px;    /* dimensione testo */
-  background-color: rgba(0,0,0,0.5); /* sfondo trasparente per leggibilità */
+  
   padding: 5px 10px;  /* spaziatura interna */
   border-radius: 5px; /* angoli arrotondati */
 }
