@@ -708,7 +708,14 @@ section,
   position: relative;
   z-index: 3;
 }
+.hero-wrapper {
+  position: relative;
+}
 
+.hero-wrapper img {
+  width: 100%;
+  display: block;
+}
 .credit {
   position: absolute;
   bottom: 5px;       /* distanza dal bordo inferiore */
