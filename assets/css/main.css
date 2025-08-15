@@ -1083,6 +1083,16 @@ section,
   height: 100%;
 }
 
+.services .service-item2 {
+  background-image: url('assets/img/argentina.jpg'); /* percorso immagine */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white; /* per mantenere il testo leggibile sopra l'immagine */
+}
+
 .services .service-item .icon {
   margin: 0 auto;
   width: 64px;
