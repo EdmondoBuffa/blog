@@ -1083,14 +1083,35 @@ section,
   height: 100%;
 }
 
-.services .service-item2 {
-  background-image: url('assets/img/giraffa.JPG'); /* percorso immagine */
+.service-item.with-bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 10px;
+  padding: 40px 20px;
+  height: 250px; /* imposta un'altezza fissa */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  height: 64px;
-  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.service-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* scurisce lo sfondo */
+  z-index: 0;
+}
+
+.service-item.with-bg > *:not(.overlay) {
+  position: relative;
+  z-index: 1;
 }
 
 .services .service-item .icon {
