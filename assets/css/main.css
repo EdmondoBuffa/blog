@@ -1160,25 +1160,25 @@ section,
 }
 
 .services .service-item:hover {
-  background: var(--accent-color);
+  background-color: transparent; /* non sovrascrivere con arancione */
   border-color: var(--accent-color);
 }
 
 .services .service-item:hover .icon {
-  background: var(--surface-color);
+  background-color: transparent; /* non sovrascrivere con arancione */
 }
 
 .services .service-item:hover .icon i {
-  color: var(--accent-color);
+  background-color: transparent; /* non sovrascrivere con arancione */
 }
 
 .services .service-item:hover .icon::before {
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background-color: transparent; /* non sovrascrivere con arancione */
 }
 
 .services .service-item:hover h3,
 .services .service-item:hover p {
-  color: var(--contrast-color);
+  background-color: transparent; /* non sovrascrivere con arancione */
 }
 
 /*--------------------------------------------------------------
