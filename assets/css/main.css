@@ -1084,13 +1084,11 @@ section,
 }
 
 .services .service-item2 {
-  background-image: url('assets/img/argentina.jpg'); /* percorso immagine */
-  background-size: cover;
-  background-position: center;
-  padding: 20px;
-  border-radius: 10px;
+  background-image: url('assets/img/giraffa.JPG'); /* percorso immagine */
   text-align: center;
-  color: white; /* per mantenere il testo leggibile sopra l'immagine */
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
 }
 
 .services .service-item .icon {
